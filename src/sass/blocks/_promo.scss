@@ -1,0 +1,37 @@
+.promo {
+  min-height: 100vh;
+  position: relative;
+  background: url("../img/backgraund.jpg") no-repeat 50% / cover;
+  padding-top: 205px;
+  &__title {
+    width: 530px;
+    margin-left: 360px;
+    color: #e9e8e1;
+    margin-top: 10px;
+  }
+  &__subtitle {
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    @include before_circle;
+  }
+  &__btns {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 360px;
+  }
+  &__link {
+    color: #e9e8e1;
+    font-weight: bold;
+    &:hover {
+      color: #e9e8e1;
+      text-decoration: none;
+    }
+  }
+}
+.kiwi {
+  fill: #e9e8e1;
+}
