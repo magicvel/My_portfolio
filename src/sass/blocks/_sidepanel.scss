@@ -11,22 +11,18 @@
   fill: #ffffff;
 
   &__link {
-    img {
-      width: 20px;
-      height: 20px;
-      svg {
-        fill: darkgreen;
-      }
+    svg path {
+      fill: $color-social;
     }
   }
 
   &__divider {
     width: 2px;
     height: 70px;
-    background-color: #e9e8e1;
+    background-color: $color-social;
   }
   &__text {
-    color: #e9e8e1;
+    color: $color-social;
     width: 25px;
     height: 150px;
     span {
@@ -35,7 +31,4 @@
       width: 150px;
     }
   }
-}
-.kiwi {
-  fill: #e9e8e1;
 }
