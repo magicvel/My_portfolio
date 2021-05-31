@@ -72,6 +72,9 @@
   .title {
     &_fz36 {
       font-size: 30px;
+
+      line-height: 42px;
+      margin-top: 26px;
     }
     &_fz48 {
       font-size: 28px;
@@ -115,6 +118,18 @@
     &__wrapper {
       grid-template-columns: repeat(auto-fit, 350px);
       padding: 0;
+    }
+  }
+  .contacts {
+    &__wrapper {
+      grid-template-columns: 300px 400px;
+    }
+    &__form {
+      grid-template: 45px 190px 45px / repeat(2, 195px);
+    }
+    &__btn {
+      padding: 8px 25px;
+      line-height: 16px;
     }
   }
 }
